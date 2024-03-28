@@ -1,0 +1,77 @@
+<!--by SHAWKY HESHAM-->
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <title>personal website</title>
+    </head>
+    <body>
+         <div class="box">
+        <img src="https://i.ibb.co/QKbBX2Y/FB-IMG-1684031785503.jpg"
+        class="box-img">
+        <h1>SHAWK HESHAM</h1>
+        <h5>Web Developer</h5>
+        <p>A web developer is a person who specialized in web pages</p>
+        <ul>
+            <li><a href="https://www.facebook.com/shawkey.heisham?mibextid=ZbWKwL.39"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://x.com/ShawkeyHsham?t=h6I3RwMJsm8yB-bjSAvi-w&s=09"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.instagram.com/shawkyheshamm?igsh=a243Mjhva3IwN3Bh/"><i class="fab fa-instagram"></i></a></li>
+        </ul>
+        </div>
+    </body>
+</html>
+/*by shawky hesham*/
+body{
+    margin: 0;
+    padding: 20;
+    background: url("https://i.ibb.co/GTv0Y7J/shapenirvana.jpg") no-repeat;
+    background-size: cover;
+}
+.box{
+    width: 200px;
+    background: rgba(0,0,0,0);
+    padding: 45px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: "Century Gothic",sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    
+}
+.box p{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-sryle: none;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+}
+.box li a:hover{
+    color: #b9b9b9;
+    
+}
